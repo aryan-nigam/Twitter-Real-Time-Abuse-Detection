@@ -149,7 +149,7 @@ headers = {'Authorization': f'Bearer {BEARER_TOKEN}'}
 
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyB2-PgaD3RiE7u7-PNXTw4Wkp4moBdyceM"
+"your developer key here"
 
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey=DEVELOPER_KEY)
